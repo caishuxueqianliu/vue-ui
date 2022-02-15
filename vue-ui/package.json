@@ -1,0 +1,16 @@
+{
+  "name": "@ice-game/vue-ui",
+  "version": "1.0.0",
+  "description": "",
+   "main": "lib/index.esm.js",
+  "style": "lib/theme-default/index.css",
+    "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

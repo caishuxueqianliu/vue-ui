@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "declaration": true,
+    "removeComments": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "types": ["vite/client", "jest", "node"],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./examples/*"],
+      "~/*": ["./packages/*"],
+      "^/*": ["./mobile/*"]
+    }
+  },
+  "include": [
+    "examples/**/*.ts",
+    "examples/**/*.vue",
+    "mobile/**/*.ts",
+    "mobile/**/*.vue",
+    "tests/**/*.ts",
+    "packages/**/*.ts",
+    "packages/**/*.vue",
+    "typings/shims-vue.d.ts",
+    "mobile/views/doc/button/data.js"
+  ],
+  "exclude": ["node_modules"]
+}
